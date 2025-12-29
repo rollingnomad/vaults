@@ -1,0 +1,18 @@
+# Ancestries
+
+Your kin, lineage, heritage, or race—this is how your character was born and how others see you at first glance. You may be a dwarf raised in the mines under the mountain with countless other dwarves, or you may be an elf raised by goblins! It's up to you to choose how your character began. Choose 1 ancestry and add its bonus to your character sheet.
+
+---
+
+{% for ancestry in ancestries -%}
+## {{ ancestry.name }}
+
+> {{ ancestry.rarity }} | {{ ancestry.size }}
+
+{{ ancestry.description | paragraphs }}
+
+!!! note "{{ ancestry.trait.name }}"
+    {{ ancestry.trait.text | clean_table }}
+
+---
+{% endfor %}

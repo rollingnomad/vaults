@@ -1,0 +1,144 @@
+# {{ job.name.upper() }}
+
+## **{{ job.role.capitalize() }}**
+
+---
+
+## Base Attributes
+
+| Scope | {{ job.scope }} | Save Target | {{ job.save }} |
+|------|----------------:|------------|---------------:|
+| __BULK__ | | __MIND__ | |
+| :material-star-circle: HP | {{ job.hp }} | :material-star-circle: Stress Cap | {{ job.stresscap }} |
+| :material-star-circle: Recoveries | {{ job.recoveries }} | :material-star-circle: Memory | {{ job.memory }} |
+| __AGILITY__ | | __MAGIC__ | |
+| :material-star-circle: Dodge | {{ job.dodge }} | :material-star-circle: A-Def | {{ job.a_def }} |
+| :material-star-circle: Speed | {{ job.speed }} | :material-star-circle: MP | {{ job.mp }} |
+
+---
+
+## Weapons
+<div class="grid cards" markdown>
+{% for weapon in job.weapon_slots %}
+- {{ weapon.upper() }}
+{% endfor %}
+</div>
+
+---
+
+## Support Slots
+<div class="grid cards" markdown>
+{% for slot in job.support_slots %}
+- {{ slot.upper() }}
+{% endfor %}
+</div>
+
+---
+
+## Abilities
+{% set rank_0_abilities = job.spells + job.skills + job.traits + job.weapons + job.support_items %}
+{% set rank_0_abilities = rank_0_abilities | selectattr("job_rank", "equalto", "0") | list %}
+
+{% for ability in rank_0_abilities %}
+{% set admonition_type = {
+    "Weapon": "example",
+    "Spell": "note",
+    "Skill": "tip",
+    "Trait": "warning",
+    "LimitBreak": "danger",
+    "SupportItem": "quote"
+}[ability.__class__.__name__] %}
+
+??? {{ admonition_type }} "**{{ ability.__class__.__name__ }}: {{ ability.name }}**"
+    - **Origin:** {{ ability.origin }}
+    - **Job Rank:** {{ ability.job_rank }}
+    - **Ability Type:** {{ ability.ability_type }}
+    - **Specific Ability Type:** {{ ability.specific_ability_type }}
+    {% if ability.__class__.__name__ in ["Spell", "Skill"] %}
+    - **Memory:** {{ ability.memory }}
+    {% endif %}
+    {% if ability.__class__.__name__ in ["Weapon", "SupportItem"] %}
+    - **Size:** {{ ability.size }}
+    {% endif %}
+    {% if ability.__class__.__name__ == "Weapon" %}
+    - **Weapon Type:** {{ ability.weapon_type }}
+    {% endif %}
+    {% if ability.__class__.__name__ in ["Spell", "Skill", "Weapon"] %}
+    - **Damage:** {{ ability.damage }}
+    {% endif %}
+    - **Action:** {{ ability.action }}
+    - **Range:** {{ ability.ability_range }}
+    {% if ability.__class__.__name__ in ["SupportItem"] %}
+    - **Dodge:** {{ ability.dodge }}
+    - **Speed:** {{ ability.speed }}
+    - **Armor:** {{ ability.armor }}
+    - **Save Target:** {{ ability.save_target }}
+    {% endif %}
+    - **Tags:** {{ ability.tags | join(", ") }}
+
+    {{ ability.text | indent(4) | safe }}
+{% endfor %}
+
+---
+
+## Limit Break
+
+{% if job.limitbreak %}
+??? danger "**Limit Break: {{ job.limitbreak.name }}**"
+    - **Action:** {{ job.limitbreak.action }}
+    - **Range:** {{ job.limitbreak.ability_range }}
+    - **Tags:** {{ job.limitbreak.tags | join(", ") }}
+    - **Specific Type:** {{ job.limitbreak.specific_ability_type }}
+    
+    {{ job.limitbreak.text | indent(4) | safe }}
+{% endif %}
+
+---
+
+{% set ranks = [1, 2, 3, "Optional"] %}
+{% for rank in ranks %}
+### Rank {{ rank }}
+
+{% set rank_abilities = job.spells + job.skills + job.traits + job.weapons + job.support_items %}
+{% set rank_abilities = rank_abilities | selectattr("job_rank", "equalto", rank|string) | list %}
+
+{% for ability in rank_abilities %}
+{% set admonition_type = {
+    "Weapon": "example",
+    "Spell": "note",
+    "Skill": "tip",
+    "Trait": "warning",
+    "LimitBreak": "danger",
+    "SupportItem": "quote"
+}[ability.__class__.__name__] %}
+
+??? {{ admonition_type }} "**{{ ability.__class__.__name__ }}: {{ ability.name }}**"
+    - **Origin:** {{ ability.origin }}
+    - **Job Rank:** {{ ability.job_rank }}
+    - **Ability Type:** {{ ability.ability_type }}
+    - **Specific Ability Type:** {{ ability.specific_ability_type }}
+    {% if ability.__class__.__name__ in ["Spell", "Skill"] %}
+    - **Memory:** {{ ability.memory }}
+    {% endif %}
+    {% if ability.__class__.__name__ in ["Weapon", "SupportItem"] %}
+    - **Size:** {{ ability.size }}
+    {% endif %}
+    {% if ability.__class__.__name__ == "Weapon" %}
+    - **Weapon Type:** {{ ability.weapon_type }}
+    {% endif %}
+    {% if ability.__class__.__name__ in ["Spell", "Skill", "Weapon"] %}
+    - **Damage:** {{ ability.damage }}
+    {% endif %}
+    - **Action:** {{ ability.action }}
+    - **Range:** {{ ability.ability_range }}
+    {% if ability.__class__.__name__ in ["SupportItem"] %}
+    - **Dodge:** {{ ability.dodge }}
+    - **Speed:** {{ ability.speed }}
+    - **Armor:** {{ ability.armor }}
+    - **Save Target:** {{ ability.save_target }}
+    {% endif %}
+    - **Tags:** {{ ability.tags | join(", ") }}
+
+    {{ ability.text | indent(4) | safe }}
+{% endfor %}
+{% endfor %}

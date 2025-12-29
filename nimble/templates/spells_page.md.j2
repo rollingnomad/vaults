@@ -1,0 +1,29 @@
+# {{ school }} Spells
+
+{% for spell in spells -%}
+#### {{ spell.name }}
+
+!!! abstract "{{ spell.name }}"
+    **Tier: {{ spell.tier }}** | **{{ spell.casting_time }}**
+    
+    **Range:** `{{ spell.spell_range or "N/A" }}` | **Target:** `{{ spell.target or "N/A" }}`
+    {% if spell.damage %} | **Damage:** `{{ spell.damage }}`{% endif %}
+    {% if spell.concentration %} | **Concentration:** `{{ spell.concentration }}`{% endif %}
+
+    ---
+
+    **{{ spell.description | paragraphs | indent(4) }}**
+
+    ---
+
+    {% if spell.upcast -%}
+    **Upcast:** {{ spell.upcast }}
+    {%- endif %}
+    {% if spell.high_levels -%}
+    <br>**High Levels:** {{ spell.high_levels }}
+    {%- endif %}
+    {% if spell.notes -%}
+    <br>**Note:** *{{ spell.notes }}*
+    {%- endif %}
+
+{% endfor %}

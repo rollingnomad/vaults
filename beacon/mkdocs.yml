@@ -1,0 +1,55 @@
+site_name: Beacon
+site_url: https://mydomain.org/mysite
+theme:
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+  name: material
+  font:
+    text: Merriweather Sans
+    code: Red Hat Mono
+  icon:
+    logo: fontawesome/solid/b
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: deep purple
+      accent: green
+      toggle:
+        icon: material/brightness-7
+        name: Dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: deep blue
+      accent: green
+      toggle:
+        icon: material/brightness-4
+        name: Light mode
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  - pymdownx.superfences
+  - abbr
+  - pymdownx.tabbed:
+      alternate_style:
+  - attr_list
+  - md_in_html
+  - tables
+
+watch:
+  - includes
+    # Live reload command:
+    # mkdocs serve --watch-theme --livereload

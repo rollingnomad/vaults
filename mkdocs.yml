@@ -1,0 +1,126 @@
+site_name: The Vaults
+nav:
+  - Home: index.md
+  - Nimble:
+      - Ancestries: nimble/ancestries.md
+      - Backgrounds: nimble/backgrounds.md
+      - Classes:
+          - Berserker: nimble/classes/berserker.md
+          - The Cheat: nimble/classes/the_cheat.md
+          - Commander: nimble/classes/commander.md
+          - Hunter: nimble/classes/hunter.md
+          - Mage: nimble/classes/mage.md
+          - Oathsworn: nimble/classes/oathsworn.md
+          - Shadowmancer: nimble/classes/shadowmancer.md
+          - Shepherd: nimble/classes/shepherd.md
+          - Songweaver: nimble/classes/songweaver.md
+          - Stormshifter: nimble/classes/stormshifter.md
+          - Zephyr: nimble/classes/zephyr.md
+      - Spells:
+          - Spell Index: nimble/spells/spells.md
+          - Fire: nimble/spells/fire_spells.md
+          - Ice: nimble/spells/ice_spells.md
+          - Lightning: nimble/spells/lightning_spells.md
+          - Necrotic: nimble/spells/necrotic_spells.md
+          - Radiant: nimble/spells/radiant_spells.md
+          - Wind: nimble/spells/wind_spells.md
+      - Create a Character: nimble/Create a Character.md
+      - Actions: nimble/Actions.md
+      - HP, Damage and Wounds: nimble/HP and Damage.md
+      - Initiative and Turns: nimble/Initiative and Turns.md
+      - Movement: nimble/Movement.md
+      - Resting & Downtime: nimble/Resting and Downtime.md
+      - Stats & Skills: nimble/Stats and Skills.md
+      - Equipment & Items: nimble/equipment.md
+      - Conditions: nimble/Conditions.md
+  - Beacon:
+      - Jobs:
+          - Aegis: beacon/jobs/aegis.md
+          - Alchemist: beacon/jobs/alchemist.md
+          - Arsenal: beacon/jobs/arsenal.md
+          - Assassin: beacon/jobs/assassin.md
+          - Avenger: beacon/jobs/avenger.md
+          - Berserker: beacon/jobs/berserker.md
+          - Bulwark: beacon/jobs/bulwark.md
+          - Chronomancer: beacon/jobs/chronomancer.md
+          - Demon-hunter: beacon/jobs/demon-hunter.md
+          - Demonologist: beacon/jobs/demonologist.md
+          - Dragon-rider: beacon/jobs/dragon-rider.md
+          - Drifter: beacon/jobs/drifter.md
+          - Druid: beacon/jobs/druid.md
+          - Equinox: beacon/jobs/equinox.md
+          - Gravewalker: beacon/jobs/gravewalker.md
+          - Gunslinger: beacon/jobs/gunslinger.md
+          - Hexblade: beacon/jobs/hexblade.md
+          - Knightmare: beacon/jobs/knightmare.md
+          - Lifeweaver: beacon/jobs/lifeweaver.md
+          - Paladin: beacon/jobs/paladin.md
+          - Phoenix: beacon/jobs/phoenix.md
+          - Riftblade: beacon/jobs/riftblade.md
+          - Rimeguard: beacon/jobs/rimeguard.md
+          - Seeker: beacon/jobs/seeker.md
+          - Shadebinder: beacon/jobs/shadebinder.md
+          - Shadow-dancer: beacon/jobs/shadow-dancer.md
+          - Shapeshifter: beacon/jobs/shapeshifter.md
+          - Skald: beacon/jobs/skald.md
+          - Thunderclaw: beacon/jobs/thunderclaw.md
+          - Tidecaller: beacon/jobs/tidecaller.md
+          - Valkyrie: beacon/jobs/valkyrie.md
+          - Warden: beacon/jobs/warden.md
+          - Warlord: beacon/jobs/warlord.md
+      - Phases: beacon/phases.md
+      - Conditions, Statuses & Tags: beacon/condtions_statuses_tags.md
+      - Core Rules: beacon/core_text.md
+
+theme:
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+  name: material
+  font:
+    text: default
+    code: Red Hat Mono
+  icon:
+    logo: fontawesome/solid/v
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: deep orange
+      accent: green
+      toggle:
+        icon: material/brightness-7
+        name: Dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: deep orange
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Light mode
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  - pymdownx.superfences
+  - abbr
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - tables
+watch:
+  - includes
+    # Live reload command:
+    # mkdocs serve --watch-theme --livereload

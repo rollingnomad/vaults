@@ -1,0 +1,115 @@
+uniqueID,Name,Rank,Talent
+Archmage1,Spell Sculptor,1,Archmage
+Archmage2,Arcane Turret,2,Archmage
+Archmage3,Focused Caster,3,Archmage
+Armored Defender1,Reinforced Plating,1,Armored Defender
+Armored Defender2,Adamantine Armor,2,Armored Defender
+Armored Defender3,Battle Hardened,3,Armored Defender
+Artificer1,Experimental Weapon,1,Artificer
+Artificer2,Improvements,2,Artificer
+Artificer3,Perfection,3,Artificer
+Artillerist1,Siege Mode,1,Artillerist
+Artillerist2,Siege Ammo,2,Artillerist
+Artillerist3,Aetheric Bombard,3,Artillerist
+Brawler1,Quick Hands,1,Brawler
+Brawler2,Fisticuffs,2,Brawler
+Brawler3,Submission,3,Brawler
+Breaker1,Dazing Blows,1,Breaker
+Breaker2,Sunder Armor,2,Breaker
+Breaker3,Ring the Bell,3,Breaker
+Deadeye1,Precision,1,Deadeye
+Deadeye2,Body Parts,2,Called Shots
+Deadeye3,Pinpoint Lethality,3,Called Shots
+Commander1,Commander's Mark,1,Commander
+Commander2,Planning,2,Commander
+Commander3,Order,3,Commander
+Copycat1,Scan,1,Copycat
+Copycat2,Copy,2,Copycat
+Copycat3,Imitate,3,Copycat
+Stormdancer1,Twin Strike,1,Stormdancer
+Stormdancer2,Whirling,2,Dervish
+Stormdancer3,Dual Wielder,3,Dervish
+Soldier1,Weapon Focus,1,Duelist
+Soldier2,Stances,2,Duelist
+Soldier3,Practiced,3,Duelist
+Enchanter1,Apprentice Enchanter,1,Enchanter
+Enchanter2,Portfolio of Formulas,2,Enchanter
+Enchanter3,Master Enchanter,3,Enchanter
+Great Weapon Master1,Cleave,1,Great Weapon Master
+Great Weapon Master2,Carry Through,2,Great Weapon Master
+Great Weapon Master3,Wide Cleave,3,Great Weapon Master
+Hospitaler1,Reserves,1,Hospitaler
+Hospitaler2,Help,2,Hospitaler
+Hospitaler3,Medic,3,Hospitaler
+Juggernaut1,Leverage,1,Juggernaut
+Juggernaut2,Locomotion,2,Juggernaut
+Juggernaut3,Runaway Train,3,Juggernaut
+Lancet1,Quick Step,1,Lancet
+Lancet2,Poke and Prod,2,Lancet
+Lancet3,Impale,3,Lancet
+Lich1,Soul Vessel,1,Lich
+Lich2,Demilich,2,Lich
+Lich3,Living Vessel,3,Lich
+Leyline Walker1,Leyline Sensor,1,Leyline Walker
+Leyline Walker2,Leyline Drainer,2,Leyline Walker
+Leyline Walker3,Leyline Transportation,3,Leyline Walker
+Traceur1,Limber,1,Traceur
+Traceur2,Rollout,2,Traceur
+Traceur3,Free Movement,3,Traceur
+Savage Fighter1,Never Down,1,Savage Fighter
+Savage Fighter2,Vicious,2,Savage Fighter
+Savage Fighter3,Wild Attacker,3,Savage Fighter
+Slasher1,Feint,1,Slasher
+Slasher2,Hamstring,2,Slasher
+Slasher3,Weeping Cuts,3,Slasher
+Shadow1,Blend,1,Shadow
+Shadow2,Hunt,2,Shadow
+Shadow3,Infiltration,3,Shadow
+Sniper1,Steady Shot,1,Sniper
+Sniper2,Zero In,2,Sniper
+Sniper3,Pinpoint Shot,3,Sniper
+Speedster1,Sprint,1,Speedster
+Speedster2,Supersonic,2,Speedster
+Speedster3,Tactical Repositioning,3,Speedster
+Spellbreaker1,Broken Concentration,1,Spellbreaker
+Spellbreaker2,Spell Evasion,2,Spellbreaker
+Spellbreaker3,Break,3,Spellbreaker
+Spotter1,Shotcaller,1,Spotter
+Spotter2,Radar,2,Spotter
+Spotter3,Quick Call,3,Spotter
+Summoner1,Strong Summons,1,Summoner
+Summoner2,Defender Summons,2,Summoner
+Summoner3,Tend to the Swarm,3,Summoner
+Sun-Blotter1,Overdraw,1,Sun-Blotter
+Sun-Blotter2,Power Shot,2,Sun-Blotter
+Sun-Blotter3,High Shot,3,Sun-Blotter
+Magi-Technician1,Growing Power,1,Magi-Technician
+Magi-Technician2,Infused Ammo,2,Magi-Technician
+Magi-Technician3,Unstable Power Core,3,Magi-Technician
+Thaumaturge1,Magical Charges,1,Thaumaturge
+Thaumaturge2,Overcharge,2,Thaumaturge
+Thaumaturge3,Empowerment,3,Thaumaturge
+Treasure Hunter1,Lucky Haul,1,Treasure Hunter
+Treasure Hunter2,Gambler,2,Treasure Hunter
+Treasure Hunter3,Deep Pockets,3,Treasure Hunter
+Warcaster1,Maintain,1,Warcaster
+Warcaster2,Spellfighter,2,Warcaster
+Warcaster3,Unflinching,3,Warcaster
+Knight1,Phalanx,1,Knight
+Knight2,Perfect Parry,2,Knight
+Knight3,Hunker Down,3,Knight
+Spellblade1,Spellweaver,1,Spellblade
+Spellblade2,Spellblade Training,2,Spellblade
+Spellblade3,Aetherblade,3,Spellblade
+Aetherbender1,Aetheric Upgrade,1,Aetherbender
+Aetherbender2,Advanced Aetheric Upgrade,2,Aetherbender
+Aetherbender3,Aether Mixer,3,Aetherbender
+Knife Juggler1,Thrower,1,Knife Juggler
+Knife Juggler2,Perfectly Balanced,2,Knife Juggler
+Knife Juggler3,Flick,3,Knife Juggler
+Gun Kata1,CQC,1,Gun Kata
+Gun Kata2,Bullet Time,2,Gun Kata
+Gun Kata3,Death-Blossom,3,Gun Kata
+Trapper (Prismaxia)1,Minesweeper,1,Trapper (Prismaxia)
+Trapper (Prismaxia)2,Recycle,2,Trapper (Prismaxia)
+Trapper (Prismaxia)3,Trap Master,3,Trapper (Prismaxia)

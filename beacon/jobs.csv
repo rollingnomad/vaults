@@ -1,0 +1,34 @@
+Job,Scope,HP,Recoveries,Dodge,Speed,Stress_Cap,Memory,A_Def,MP,Save,Weapon_Slot_1,Weapon_Slot_2,Weapon_Slot_3,Support_Slot_1,Support_Slot_2,Support_Slot_3,Support_Slot_4,Trait_1,Trait_2,Trait_3,Granted_Ability,Limit_Break,Role,Class_ID
+Aegis,10,6,3,6,4,7,7,10,5,10,light,main,,light,light,,,Abjurer's Ward,Mana Transferral,,Ward,Perfect Shield,Defender,Aegis
+Alchemist,8,7,5,7,5,6,5,8,3,11,main,,,light,main,main,main,Potion Belt,Potion Injector,Sanitizing Vapors,,Philosopher's Stone,Support,Alchemist
+Arsenal,5,10,5,8,5,5,5,6,3,10,main,main,heavy,light,light,main,,Armiger,Flex Weapons,Walking Armory,Phantom Armory,Cycle Weapons,Striker,Arsenal
+Assassin,8,8,3,11,6,5,6,7,2,10,light,main/light,,light,light,main,,Assassinate,Preparation,,,Exterminate,Striker,Assassin
+Berserker,5,16,6,8,6,6,4,6,1,10,main,heavy,,light,light,,,Endless Endurance,Reckless,Relentless,,Primal Strike,Striker,Berserker
+Chronomancer,10,6,3,7,5,6,6,9,5,12,light,light,,light,light,,,Pluck the Threads of Time,Undo,,Pluck the Threads of Time (spell),Time Shuffle,Controller,Chronomancer
+Demon Hunter,8,10,4,8,6,9,5,8,2,10,light,main/light,,light,light,,,Corruption,Demon Form,Infernal Aether,,Become the Monster,Striker,Demon Hunter
+Demonologist,12,7,2,7,5,6,6,12,4,11,main,,,light,main,,,Demon Lexicon,,Sacrifice,,Legion,Controller,Demonologist
+Dragon Rider,5,9,5,7,6,4,5,7,3,11,light,main,heavy,main,main,,,Forceful Jab,Skyhunter,Skythrust,,Dragon Echo,Striker,Dragon Rider
+Druid,10,9,4,7,4,6,6,9,4,11,light,main,,light,light,,,Briar Patch,Nature's Path,Root,,Tempest Storm,Controller,Druid
+Equinox,12,6,3,6,4,5,7,10,5,11,main,,,light,light,,,Day/Night Cycle,,Mage Tower,,Tetraflare,Artillery,Equinox
+Gravewalker,10,8,6,6,4,5,5,8,3,10,main,heavy,,main,heavy,,,Harvest,Tombstone,,Written Name (Skill),That Which is Already Dead,Defender,Gravewalker
+Gunslinger,8,8,3,10,5,5,5,6,3,11, light/light,main,heavy,light,main,,,Fast Reload,Stare Down,,Quick Draw,Customized Ammo,Artillery,Gunslinger
+Hexblade,10,8,4,7,5,5,6,8,4,11, light/light,main,,light,light,light,,Hex,Misery,,Hex (Spell),Doom Hex,Striker/Controller,Hexblade
+Knightmare,5,9,4,6,6,6,5,7,3,11,light,main,heavy,main,heavy,,,The Chains of Despair,The Inescapable Nightmare,The Weight of Inevitability,Chains of Despair,Trapped in a Dream,Defender/Controller,Knightmare
+Lifeweaver,12,6,10,7,5,6,6,8,4,10,main,,,light,light,,,Healer's Burden,Purge Malady,Quick Stitch,,Second Life,Support,Lifeweaver
+Paladin,5,9,6,6,5,7,5,7,2,10,main,heavy,,main,heavy,,,Guardian Angel,Layered Auras,Retribution,Aura of Inspiration,Bastion of Resolve,Defender/Support,Paladin
+Phoenix,15,7,2,6,4,7,6,10,5,11,light,main,,light,light,,,Burn Proof,Burning Spells,,,Supervolcano,Artillery,Phoenix
+Riftblade,15,8,3,7,4,5,6,8,4,10,light,heavy,,light,light,light,main,Rift,Riftcutter,,Riftcutter (Weapon),Gateway,Artillery,Riftblade
+Rimeguard,8,1,5,6,5,5,5,9,4,11,main,main,,main,heavy,,,Frost Armor,Icy Veins,Rimeheart,,Absolute Zero,Defender,Rimeguard
+Seeker,20,6,3,8,5,4,6,9,3,11,main,heavy,,light,main,,,Guided Shot,Marksman's Eye,Seeker's Sight,Guided Shot (Skill),Heavenly Starfall,Artillery/Controller,Seeker
+Shadebinder,10,6,5,7,4,5,6,7,4,12,light,,,light,light,main,main,Command Partner,Companion Shade,,,Aetheric Evolution,Controller,Shadebinder
+Shadow Dancer,12,8,3,12,7,4,5,7,4,10, light/light,,,light,light,,,Shadow Clones,Shadow Realm,Slip Step,,Eclipse,Striker,Shadow Dancer
+Shapeshifter,10,8,4,8,5,7,5,7,4,10,light,heavy,,light,light,light,,Beast Weapons,Form for the Occasion,Soothe,Beast Weapons (Weapon),Perfect Form,Support,Shapeshifter
+Skald,10,7,4,8,5,6,6,9,4,11,main,,,light,main,,,Encore,Inspire,Tempo,Tempo (Skill),Ballad,Support,Skald
+Thunderclaw,5,8,5,10,6,5,6,7,2,10, light/light,main,,light,main,,,Balance,Fast as Lightning,Flurry,,Living Lightning,Striker,Thunderclaw
+Tidecaller,8,8,3,6,5,6,6,10,5,12,light,main,,light,light,,,Rising Tide,River Current,Water Veil,,Tidal Wave,Controller/Support,Tidecaller
+Warden,5,12,6,6,5,6,5,8,2,10,main,heavy,,light,light,main,,Earthen Slide,Grasping Vines,,Earthen Slide (Skill),Gaia's Wrath,Defender,Warden
+Warlord,12,10,5,7,5,5,7,6,2,10,main,main,,light,light,main,,Focused Plan,Take a Breather,,,Follow My Lead,Support,Warlord
+Avenger,5,8,4,9,5,7,5,7,2,10,main,heavy,,light,main,,,Conviction,Vow of Vengeance,,,Avenging Strikes,Striker,
+Bulwark,5,9,6,6,4,7,6,6,2,10,main/light,heavy,,light,main,heavy,,Earthen Shields,Living Wall,Unmovable and Unbreakable,,Walls of Hope,Defender,
+Valkyrie,10,8,5,7,5,5,6,7,3,10,light,main,,main,main,,,Arise,Ascendant,Eternal Battlefield,,Upon Wings of Death,Support,
+Drifter,8,10,4,8,5,7,5,8,3,11,light,main,,main,main,,,Gale Sheath,Vibrations on the Wind,,,Draw the Cyclone,Striker,Drifter

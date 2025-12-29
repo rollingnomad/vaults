@@ -1,0 +1,71 @@
+# {{ name }}
+
+{{ description | paragraphs }} 
+
+## Core Stats
+
+| **Key Stats** | {{ key_stats|join(', ') }} | **Secondary Stats** | {{ secondary_stats|join(', ') }} |
+| :--- | :--- | :--- | :--- |
+| **Hit Die** | {{ hit_die }} | **Starting HP** | {{ starting_hp }} |
+| **Armor** | {{ armor }} |  **Weapons** | {{ weapons if weapons is string else weapons|join(', ') }} |
+| **Save Advantage** |{{ saves.advantage|join(', ') }} | **Save Disadvantage** |{{ saves.disadvantage|join(', ') }} | 
+
+---
+
+## Leveling Table
+
+{% for level, feats in level_feats | groupby('level') %}
+#### Level {{ level }}
+
+{% for feat in feats %}
+!!! info "{{ feat.name }}{{ ' (' + feat.action + ')' if feat.action }}"
+    {{ feat.text | paragraphs | indent(width=4, first=False) }}
+    {% if feat.usage %}
+
+    **Usage:** {{ feat.usage }}
+    {% endif %}
+
+{% endfor %}
+{% endfor %}
+
+---
+
+{% if class_feats %}
+## Class Features
+
+{% for category, feats in class_feats.items() %}
+### {{ category }}
+
+{% for feat in feats %}
+!!! note "{{ feat.name }}{{ ' (' + feat.action + ')' if feat.action }}"
+    {{ feat.text | paragraphs | indent(width=4, first=False) }}
+    {% if feat.usage %}
+
+    **Usage:** {{ feat.usage }}
+    {% endif %}
+
+{% endfor %}
+{% endfor %}
+{% endif %}
+
+---
+
+## Subclasses
+
+{% for sub in subclasses %}
+### {{ sub.name }}
+
+{% for level, feats in sub.subclass_feats | groupby('level') %}
+#### Level {{ level }}
+
+{% for feat in feats %}
+!!! example "{{ feat.name }}{{ ' (' + feat.action + ')' if feat.action }}"
+    {{ feat.text | paragraphs | indent(width=4, first=False) }}
+    {% if feat.usage %}
+
+    **Usage:** {{ feat.usage }}
+    {% endif %}
+
+{% endfor %}
+{% endfor %}
+{% endfor %}

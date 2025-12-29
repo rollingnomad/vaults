@@ -1,0 +1,22 @@
+# Home
+
+## Welcome to Nimble TTRPG!
+
+Welcome to the un-official rules reference for **Nimble**. This site contains everything you need to build your hero, master your abilities, and survive the challenges of the realm.
+
+## Explore the Classes
+
+Choose your path. Each class offers unique mechanics, from the relentless **Fury Dice** of the Berserker to the complex **Mana Tapestry** of the Mage.
+
+<div class="grid cards" markdown>
+
+{% for char_class in classes %}
+-   ##**{{ char_class.name }}**
+    {{ char_class.description[:150] }}
+    
+    [:octicons-arrow-right-24: View Class Details](classes/{{ char_class.name.lower().replace(' ', '_') }}.md)
+{% endfor %}
+
+</div>
+
+---
