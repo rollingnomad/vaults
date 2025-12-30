@@ -48,6 +48,8 @@
 
 
 
+
+
 ??? warning "**Trait: Potion Belt**"
     - **Origin:** Alchemist
     - **Job Rank:** 0

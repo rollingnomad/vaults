@@ -45,6 +45,45 @@
 
 
 
+
+
+
+??? warning "**Trait: Conviction**"
+    - **Origin:** Avenger
+    - **Job Rank:** 0
+    - **Ability Type:** Trait
+    - **Specific Ability Type:** Job Trait
+    
+    
+    
+    
+    - **Action:** 
+    - **Range:** 
+    
+    - **Tags:** 
+
+    You gain +2 Armor while Bloodied or Breaking.
+
+
+
+??? warning "**Trait: Vow of Vengeance**"
+    - **Origin:** Avenger
+    - **Job Rank:** 0
+    - **Ability Type:** Trait
+    - **Specific Ability Type:** Job Trait
+    
+    
+    
+    
+    - **Action:** Minor Action
+    - **Range:** Range = Scope
+    
+    - **Tags:** Mana 1
+
+    You designate an enemy within Range as the target of your vengeance. 1/turn when you make a melee attack roll against your nominated target, you can roll an additional d20 and use either result.
+    You can't use Vow of Vengeance on another enemy until the current target is defeated or the scene ends.
+
+
 ---
 
 ## Limit Break

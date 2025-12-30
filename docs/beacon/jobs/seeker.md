@@ -46,6 +46,8 @@
 
 
 
+
+
 ??? tip "**Skill: Guided Shot (Skill)**"
     - **Origin:** Seeker
     - **Job Rank:** 0

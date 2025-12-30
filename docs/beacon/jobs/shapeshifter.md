@@ -48,6 +48,8 @@
 
 
 
+
+
 ??? warning "**Trait: Beast Weapons**"
     - **Origin:** Shapeshifter
     - **Job Rank:** 0

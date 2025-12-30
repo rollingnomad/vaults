@@ -278,7 +278,7 @@ class Ancestry:
     pass
 
 
-def get_all_abilities(filename="ability_index.csv") -> List:
+def get_all_abilities(filename="beacon/ability_index.csv") -> List:
     abilities = []
     with open(filename, newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
@@ -322,6 +322,11 @@ def get_all_abilities(filename="ability_index.csv") -> List:
 
 
 raw_abilities = get_all_abilities()
+
+# ascendant = next(a for a in raw_abilities if a.name == "Ascendant")
+# print(ascendant)
+# drown = next(a for a in raw_abilities if a.name == "Drown")
+# print(drown)
 
 
 # def get_objs(raw_abilities: List):
@@ -415,9 +420,9 @@ def resolve_traits(*names):
     return [trait_by_name[name] for name in names if name]
 
 
-def get_jobs(filename: str = "jobs.csv"):
+def get_jobs(filename: str = "beacon/jobs.csv"):
     jobs: dict[str, Job] = {}
-    with open("jobs.csv", newline="", encoding="utf-8") as f:
+    with open(filename, newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         for row in reader:
             name = row["Job"]
@@ -469,13 +474,13 @@ from pathlib import Path
 from jinja2 import Environment, FileSystemLoader
 
 env = Environment(
-    loader=FileSystemLoader("templates"),
+    loader=FileSystemLoader("beacon/templates"),
     autoescape=False,
 )
 
 template = env.get_template("job.md.j2")
 
-DOCS_DIR = Path("docs/jobs")
+DOCS_DIR = Path("docs/beacon/jobs")
 DOCS_DIR.mkdir(parents=True, exist_ok=True)
 
 

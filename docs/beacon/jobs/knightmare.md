@@ -48,6 +48,8 @@
 
 
 
+
+
 ??? tip "**Skill: Chains of Despair**"
     - **Origin:** Knightmare
     - **Job Rank:** 0

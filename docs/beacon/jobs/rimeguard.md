@@ -46,6 +46,8 @@
 
 
 
+
+
 ??? warning "**Trait: Frost Armor**"
     - **Origin:** Rimeguard
     - **Job Rank:** 0

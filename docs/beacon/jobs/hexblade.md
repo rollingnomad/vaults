@@ -48,6 +48,8 @@
 
 
 
+
+
 ??? note "**Spell: Hex (Spell)**"
     - **Origin:** Hexblade
     - **Job Rank:** 0

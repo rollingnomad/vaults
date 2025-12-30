@@ -46,6 +46,8 @@
 
 
 
+
+
 ??? note "**Spell: Aura of Inspiration**"
     - **Origin:** Paladin
     - **Job Rank:** 0

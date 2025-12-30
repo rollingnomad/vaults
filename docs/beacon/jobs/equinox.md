@@ -44,6 +44,8 @@
 
 
 
+
+
 ??? warning "**Trait: Day/Night Cycle**"
     - **Origin:** Equinox
     - **Job Rank:** 0

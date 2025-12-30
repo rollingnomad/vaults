@@ -46,6 +46,8 @@
 
 
 
+
+
 ??? warning "**Trait: Corruption**"
     - **Origin:** Demon Hunter
     - **Job Rank:** 0

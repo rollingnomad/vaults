@@ -46,6 +46,8 @@
 
 
 
+
+
 ??? warning "**Trait: Burn Proof**"
     - **Origin:** Phoenix
     - **Job Rank:** 0

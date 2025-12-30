@@ -46,6 +46,8 @@
 
 
 
+
+
 ??? warning "**Trait: Endless Endurance**"
     - **Origin:** Berserker
     - **Job Rank:** 0

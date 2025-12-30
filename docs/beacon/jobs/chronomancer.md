@@ -46,6 +46,8 @@
 
 
 
+
+
 ??? note "**Spell: Pluck the Threads of Time (spell)**"
     - **Origin:** Chronomancer
     - **Job Rank:** 0

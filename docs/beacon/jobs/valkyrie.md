@@ -45,6 +45,63 @@
 
 
 
+
+
+
+??? warning "**Trait: Arise**"
+    - **Origin:** Valkyrie
+    - **Job Rank:** 0
+    - **Ability Type:** Trait
+    - **Specific Ability Type:** Job Trait
+    
+    
+    
+    
+    - **Action:** Minor Action
+    - **Range:** Range = Scope
+    
+    - **Tags:** Mana 1
+
+    An ally within Range gains FLYING and TEMP HP equal to 2 + your GRIT until the end of their next turn or until they end this effect as a free action.
+
+
+
+??? warning "**Trait: Ascendant**"
+    - **Origin:** Valkyrie
+    - **Job Rank:** 0
+    - **Ability Type:** Trait
+    - **Specific Ability Type:** Job Trait
+    
+    
+    
+    
+    - **Action:** 
+    - **Range:** 
+    
+    - **Tags:** 
+
+    You have flight.
+
+
+
+??? warning "**Trait: Eternal Battlefield**"
+    - **Origin:** Valkyrie
+    - **Job Rank:** 0
+    - **Ability Type:** Trait
+    - **Specific Ability Type:** Job Trait
+    
+    
+    
+    
+    - **Action:** 
+    - **Range:** 
+    
+    - **Tags:** 
+
+    1/turn when an ally deals damage to an enemy adjacent to you, they deal +2 Astral.
+    1/turn when an ally deals Stress to an enemy adjacent to you, they deal +1 Stress.
+
+
 ---
 
 ## Limit Break

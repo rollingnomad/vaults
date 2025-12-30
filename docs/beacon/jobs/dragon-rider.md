@@ -48,6 +48,8 @@
 
 
 
+
+
 ??? warning "**Trait: Forceful Jab**"
     - **Origin:** Dragon Rider
     - **Job Rank:** 0

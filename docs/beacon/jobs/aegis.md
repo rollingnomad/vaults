@@ -46,6 +46,8 @@
 
 
 
+
+
 ??? note "**Spell: Ward**"
     - **Origin:** Aegis
     - **Job Rank:** 0

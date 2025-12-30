@@ -48,6 +48,8 @@
 
 
 
+
+
 ??? warning "**Trait: Focused Plan**"
     - **Origin:** Warlord
     - **Job Rank:** 0

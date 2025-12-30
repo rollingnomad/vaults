@@ -48,6 +48,8 @@
 
 
 
+
+
 ??? warning "**Trait: Companion Shade**"
     - **Origin:** Shadebinder
     - **Job Rank:** 0

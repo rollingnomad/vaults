@@ -46,6 +46,8 @@
 
 
 
+
+
 ??? warning "**Trait: Gale Sheath**"
     - **Origin:** Drifter
     - **Job Rank:** 0

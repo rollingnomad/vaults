@@ -48,6 +48,8 @@
 
 
 
+
+
 ??? tip "**Skill: Quick Draw**"
     - **Origin:** Gunslinger
     - **Job Rank:** 0

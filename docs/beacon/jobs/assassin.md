@@ -48,6 +48,8 @@
 
 
 
+
+
 ??? warning "**Trait: Assassinate**"
     - **Origin:** Assassin
     - **Job Rank:** 0

@@ -50,6 +50,8 @@
 
 
 
+
+
 ??? warning "**Trait: Rift**"
     - **Origin:** Riftblade
     - **Job Rank:** 0

@@ -36,8 +36,10 @@
 ---
 
 ## Abilities
-{% set rank_0_abilities = job.spells + job.skills + job.traits + job.weapons + job.support_items %}
-{% set rank_0_abilities = rank_0_abilities | selectattr("job_rank", "equalto", "0") | list %}
+{# Add job.talents to the list #}
+{% set rank_0_abilities = job.spells + job.skills + job.traits + job.weapons + job.support_items + job.talents %}
+{# Filter for rank "0" OR an empty string "" #}
+{% set rank_0_abilities = rank_0_abilities | selectattr("job_rank", "in", ["0", ""]) | list %}
 
 {% for ability in rank_0_abilities %}
 {% set admonition_type = {
@@ -99,7 +101,7 @@
 {% for rank in ranks %}
 ### Rank {{ rank }}
 
-{% set rank_abilities = job.spells + job.skills + job.traits + job.weapons + job.support_items %}
+{% set rank_abilities = job.spells + job.skills + job.traits + job.weapons + job.support_items + job.talents %}
 {% set rank_abilities = rank_abilities | selectattr("job_rank", "equalto", rank|string) | list %}
 
 {% for ability in rank_abilities %}

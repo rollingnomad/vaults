@@ -44,6 +44,8 @@
 
 
 
+
+
 ??? tip "**Skill: Tempo (Skill)**"
     - **Origin:** Skald
     - **Job Rank:** 0

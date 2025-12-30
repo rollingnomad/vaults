@@ -46,6 +46,8 @@
 
 
 
+
+
 ??? warning "**Trait: Briar Patch**"
     - **Origin:** Druid
     - **Job Rank:** 0
