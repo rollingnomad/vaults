@@ -71,6 +71,8 @@ nav:
       - Phases: beacon/phases.md
       - Conditions, Statuses & Tags: beacon/condtions_statuses_tags.md
       - Core Rules: beacon/core_text.md
+  - Monolith:
+      - Core Rules: monolith/monolith.md
 
 theme:
   features:
